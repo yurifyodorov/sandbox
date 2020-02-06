@@ -17,6 +17,6 @@
     <a href="https://yurifyodorov.github.io/sandbox/bouncer/">bouncer</a>
   </li>
   <li>
-    <a href="https://yurifyodorov.github.io/sandbox/form/">form</a>
+    <a href="https://yurifyodorov.github.io/sandbox/hr-form/">hr-form</a>
   </li>
 </ol>
