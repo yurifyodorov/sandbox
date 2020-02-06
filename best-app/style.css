@@ -1,0 +1,374 @@
+body {
+  margin: 0;
+  font-family: "PT Sans", sans-serif;
+  overflow-x: hidden;
+}
+
+header {
+  height: 900px;
+  background-image: url("./img/bcg-1.png");
+}
+
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  line-height: 100px;
+  box-sizing: border-box;
+  padding: 0 calc(50vw - 1400px / 2);
+  font-size: 19px;
+}
+
+.logo {
+  font-weight: bold;
+}
+
+nav a {
+  color: white;
+  margin-left: 15px;
+  margin-right: 15px;
+  text-decoration: none;
+}
+
+.reg-btn {
+  width: 228px;
+  height: 55px;
+  margin-left: 80px;
+  font-size: inherit;
+  border: none;
+  border-radius: 22.5px;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.reg-btn:hover {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3), 0 6px 6px rgba(0, 0, 0, 0.3);
+}
+
+.main-offer {
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  height: calc(800px);
+  padding: 0 calc(50vw - 1400px / 2);
+}
+
+.main-offer .description {
+  width: calc(1400px / 2);
+  height: 400px;
+}
+
+.main-offer .description .sub-title {
+  font-size: 22px;
+  text-transform: uppercase;
+}
+
+.main-offer .description h1 {
+  width: 550px;
+  font-size: 48px;
+}
+
+.main-offer .description form {
+  position: relative;
+  width: 617px;
+  height: 55px;
+  display: flex;
+  border: none;
+  border-radius: 27.5px;
+  margin-top: 70px;
+  -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3), 0 6px 6px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3), 0 6px 6px rgba(0, 0, 0, 0.3);
+}
+
+.main-offer .description form input {
+  width: 80%;
+  border: none;
+  border-radius: 27.5px 0 0 27.5px;
+  padding: 0 40px;
+  outline: none;
+  font-size: 18px;
+}
+
+.main-offer .description form button {
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 231px;
+  font-size: 18px;
+  color: #fff;
+  border: none;
+  border-radius: 27.5px;
+  cursor: pointer;
+  background: linear-gradient(9deg, #3826d7 29%, #7326d6 69%);
+}
+
+.main-offer .photo {
+  display: flex;
+  justify-content: center;
+  width: calc(1400px / 2);
+  display: block;
+}
+
+@media (max-width: 1400px) {
+  header {
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  .topbar {
+    padding-right: 5%;
+    padding-left: 5%;
+  }
+  .description {
+    padding-left: 5%;
+    width: 400px;
+  }
+  .photo {
+    display: block;
+
+    width: min-content;
+    margin-left: -200px;
+  }
+}
+
+#about {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+  width: 100%;
+  height: 780px;
+  color: white;
+  padding: 0 calc(50vw - 1400px / 2);
+  background-image: url("./img/bcg-2.png");
+  z-index: -2;
+}
+
+#about::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #3826d7;
+  background: linear-gradient(176deg, #3826d7 0%, rgba(115, 38, 214, 0.443015) 100%);
+  z-index: -1;
+}
+
+#about .title {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  position: relative;
+  width: calc(1400px - 950px);
+  height: 400px;
+  margin: 0;
+  font-size: 48px;
+}
+
+#about .title .sub-title {
+  position: absolute;
+  top: 170px;
+  left: 0;
+  font-size: 22px;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+
+#about .description {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  width: calc(1400px / 2);
+  height: 400px;
+  margin: 0;
+  font-size: 22px;
+}
+
+#about .statistics {
+  position: absolute;
+  bottom: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  max-width: 1400px;
+  height: 320px;
+  border-top: 1px solid white;
+  box-sizing: border-box;
+  padding: 1px;
+}
+
+#about .statistics .item {
+  width: 25%;
+  box-sizing: border-box;
+  text-align: center;
+  font-size: 30px;
+  padding-top: 60px;
+}
+
+#about .statistics .item span {
+  display: block;
+  width: 100%;
+  font-size: 70px;
+}
+
+@media (max-width: 1400px) {
+  #about {
+    height: 680px;
+  }
+  #about .description,
+  #about .statistics,
+  #about .title {
+    padding-right: 5%;
+    padding-left: 5%;
+    height: 300px;
+  }
+  #about .title {
+    font-size: 25px;
+  }
+  #about .title .sub-title {
+    top: 170px;
+    left: 60px;
+  }
+}
+
+footer {
+  position: relative;
+  box-sizing: border-box;
+}
+
+footer .point {
+  position: absolute;
+  display: block;
+  background-color: #693bd3;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+footer .point-1 {
+  top: 20%;
+  right: 30%;
+}
+
+footer .point-2 {
+  top: 30%;
+  left: 23%;
+}
+
+#gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 1fr 1fr 850px;
+  box-sizing: border-box;
+}
+
+#gallery-grid .gallery__item {
+  margin: 0;
+}
+
+#gallery-grid .gallery__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  margin: 0;
+}
+
+#gallery-grid .gallery__item--1 {
+  grid-column: 1 / 3;
+  grid-row: 1;
+}
+
+#gallery-grid .gallery__item--2 {
+  grid-column: 3;
+  grid-row: 1;
+}
+
+#gallery-grid .gallery__item--3 {
+  grid-column: 4;
+  grid-row: 1;
+}
+
+#gallery-grid .gallery__item--4 {
+  grid-column: 1;
+  grid-row: 2;
+}
+
+#gallery-grid .gallery__item--5 {
+  grid-column: 2;
+  grid-row: 2;
+}
+
+#gallery-grid .gallery__item--6 {
+  grid-column: 3 / 5;
+  grid-row: 2;
+}
+
+#gallery-grid .gallery__item--7 {
+  position: relative;
+  grid-column: 1;
+  grid-row: 3;
+}
+
+#gallery-grid .gallery__item--7::after {
+  content: "";
+  background: linear-gradient(176deg, rgba(56, 38, 215, 0.753939) 0%, rgba(115, 38, 214, 0.863183) 100%);
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+#gallery-grid .feedback {
+  grid-column: 2 / 5;
+  grid-row: 3;
+  background-image: url("./img/bcg-3.png");
+  background-size: cover;
+}
+
+#gallery-grid .feedback .container {
+  box-sizing: border-box;
+  text-align: center;
+  width: 710px;
+  margin: 15% auto;
+}
+
+#gallery-grid .feedback .sub-title {
+  font-size: 22px;
+  text-transform: uppercase;
+}
+
+#gallery-grid .feedback h2 {
+  font-size: 48px;
+  margin-top: 10px;
+}
+
+#gallery-grid .feedback #feedback-form {
+  display: flex;
+  flex-direction: column;
+  width: 710px;
+  height: 400px;
+}
+
+#gallery-grid .feedback #feedback-form input {
+  width: 100%;
+  height: 50px;
+  margin-bottom: 40px;
+  border: 1px solid silver;
+  box-sizing: border-box;
+  padding: 0 30px;
+  border-radius: 27.5px;
+}
+
+#gallery-grid .feedback #feedback-form button {
+  width: 230px;
+  height: 60px;
+  border-radius: 27.5px;
+  font-size: 18px;
+  margin: 0 auto;
+  border: none;
+  color: white;
+  background: linear-gradient(176deg, #3826d7 0%, rgba(115, 38, 214, 0.863183) 100%);
+}
