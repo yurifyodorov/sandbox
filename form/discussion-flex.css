@@ -1,0 +1,102 @@
+body {
+  background-color: silver;
+  font-family: 'Raleway', sans-serif;
+}
+
+.discussion {
+  display: flex;
+  flex-direction: column;
+  width: 800px;
+  height: 600px;
+  margin: 5% auto;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  border-radius: 5px;
+}
+
+.discussion::after {
+  flex-grow: 1;
+  content: '';
+  display: block;
+  background-color: white;
+  border-top: 1px solid #dadada;
+  border-radius: 0 0 5px 5px;
+  height: 10px;
+  box-sizing: border-box;
+}
+
+.discussion h1 {
+  margin: 0 0 0 7px;  font-size: 20px;
+}
+
+.header {
+  min-height: 70px;
+  padding: 10px;
+  box-sizing: border-box;
+  border-bottom: 1px solid #dadada; 
+  border-radius: 5px 5px 0 0;
+  background-color: white;
+  position: relative;
+}
+
+.content {
+  margin: 0;
+  list-style-type: none;
+  padding-inline-start: 0;
+  overflow-y: auto;
+}
+
+.close {
+  cursor: pointer;
+  font-size: 1.5em;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.post {
+  display: flex;
+}
+
+.user,
+.msg {
+  box-sizing: border-box;
+}
+
+.user {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  min-width: 150px;
+}
+
+.date {
+  width: min-content;
+}
+
+.msg {
+  flex-grow: 1;
+  border-left: 1px solid white;
+  background-color: #eee;
+  padding: 10px;
+}
+
+.photo {
+  border-radius: 50%;
+}
+
+.created-by,
+.created-on,
+.name,
+.text,
+.date {
+  box-sizing: border-box;
+  padding-left: 8px;
+  font-size: 0.8em;
+}
+
+.text {
+  padding: 10px;
+  margin: 3px 0 0 0;
+  border: 1px solid #dadada;
+  background-color: #fff;
+}
