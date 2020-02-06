@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>HR-form</title>
+  </head>
+  <body>
+
+    <form action="" id="hr-form">
+
+      <h1>Вакансия: Junior Frontend Developer</h1>
+      <header>
+        <div id="photo">
+          <input type="file" name="file" id="file" / required>
+          <label for="file"></label>
+        </div>
+        <ul>
+          <li>
+            <legend>Имя:</legend>
+            <input type="text" placeholder="введите имя" required>
+          </li>
+          <li>
+            <legend>GitHub:</legend>
+            <input type="text" placeholder="ссылка на github">
+          </li>
+          <li>
+            <legend>Стаж:</legend>
+            <input type="text" placeholder="укажите ваш опыт">
+          </li>
+        </ul>
+      </header>
+      <fieldset>
+        <legend>Дата собеседования:</legend>
+        <input type="date" required>
+      </fieldset>
+
+      <fieldset>
+        <legend>Уровень английского:</legend>
+        <ul>
+          <li>
+            <input type="radio" name="eng" id="bad">
+            <label for="bad">плохо</label>
+          </li>
+          <li>
+            <input type="radio" name="eng" id="medium">
+            <label for="medium">средне</label>
+          </li>
+          <li>
+            <input type="radio" name="eng" id="good">
+            <label for="good">хорошо</label>
+          </li>
+          <li>
+            <input type="radio" name="eng" id="excellent">
+            <label for="excellent">превосходно</label>
+          </li>
+        </ul>
+      </fieldset>
+
+      <fieldset>
+        <legend>Ключевые навыки:</legend><br><br>
+        <ul role="none">
+          <li>
+            <input type="checkbox" name="skills" id="html">
+            <label for="html">HTML</label>
+          </li>
+          <li>
+            <input type="checkbox" name="skills" id="css">
+            <label for="css">CSS</label>
+          </li>
+          <li>
+            <input type="checkbox" name="skills" id="git">
+            <label for="git">Git</label>
+          </li>
+          <li>
+            <input type="checkbox" name="skills" id="js">
+            <label for="js">JavaScript</label>
+          </li>
+          <li>
+            <input type="checkbox" name="skills" id="angular">
+            <label for="angular">Angular JS</label>
+          </li>
+        </ul>
+      </fieldset>
+
+      <fieldset>
+        <legend>Коммуникабельность:</legend>
+        <select>
+          <option>всех люблю</option>
+          <option>всех ненавижу</option>
+        </select>
+      </fieldset>
+
+      <fieldset>
+        <legend>Желаемая з/п:</legend><br><br>
+          <output id="rangevalue1"></output>
+          <span>RUB</span>
+          <input class="range" type="range" min="30000" max="90000" value="30000" step="10000" onmousemove="rangevalue1.value=value" />
+      </fieldset>
+
+      <fieldset>
+        <legend>Подходит по критериям:</legend><br>
+        <ul role="none">
+          <li>
+            <input type="checkbox" name="accordance" id="aptitude-eng">
+            <label for="aptitude-eng">знание английского</label>
+          </li>
+          <li>
+            <input type="checkbox" name="accordance" id="aptitude-salary">
+            <label for="aptitude-salary">оклад</label>
+          </li>
+          <li>
+            <input type="checkbox" name="accordance" id="aptitude-skills">
+            <label for="aptitude-skills">навыки</label>
+          </li>
+          <li>
+            <input type="checkbox" name="accordance" id="aptitude-all">
+            <label for="aptitude-all">сразу видно, свой человек</label>
+          </li>
+        </ul>
+      </fieldset>
+
+      <fieldset>
+        <table id="education">
+          <caption>Образование, курсы и прочее:</caption>
+          <col class="col-1">
+          <thead>
+            <tr>
+              <th>Сроки обучения</th>
+              <th>Учебное заведение</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><input type="date"><span> - </span><input type="date"></td>
+              <td><input type="text" value="Лицей Технологии и Дизайна"></td>
+            </tr>
+            <tr>
+              <td><input type="date"><span> - </span><input type="date"></td>
+              <td><input type="text" value="Level UP"></td>
+            </tr>
+            <tr>
+              <td><input type="date"><span> - </span><input type="date"></td>
+              <td><input type="text" value="ITMO University"></td>
+            </tr>
+          </tbody>
+        </table>
+      </fieldset>
+      
+      <button>Отправить</button>
+    </form>
+  </body>
+</html>
