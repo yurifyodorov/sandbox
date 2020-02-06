@@ -1,25 +1,26 @@
+// burger-menu
 let isBurgerClicked = false;
 const burger = document.querySelector('.toggle-burger');
 const burgerMenu = document.querySelector('.menu');
 
 initPage();
 
-function initPage() {    
-    burger.addEventListener('click', burgerClick);
-    document.body.addEventListener('click', hideBurger);
+function initPage() {
+  burger.addEventListener('click', burgerClick);
+  document.body.addEventListener('click', hideBurger);
 }
 
 function burgerClick(e) {
-    e.stopPropagation();
+  e.stopPropagation();
 
-    burger.classList.toggle('toggle-cross');
-    burgerMenu.classList.toggle('menu-shown');
+  burger.classList.toggle('toggle-cross');
+  burgerMenu.classList.toggle('menu-shown');
 
-    isBurgerClicked = !isBurgerClicked;
+  isBurgerClicked = !isBurgerClicked;
 }
 
 function hideBurger(e) {
-    if (isBurgerClicked && event.target !== burgerMenu) {
-        burgerClick(event);
-    }
+  if (isBurgerClicked && event.target !== burgerMenu) {
+    burgerClick(event);
+  }
 }
