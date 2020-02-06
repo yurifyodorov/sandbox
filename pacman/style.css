@@ -1,0 +1,77 @@
+body {
+  background-color: #eee;
+}
+
+#world {
+  background-color: #181819;
+}
+
+.wall {
+  width: 50px;
+  height: 50px;
+  background-image: url("wall.png");
+}
+.coin {
+  width: 50px;
+  height: 50px;
+  background-image: url("coin.png");
+}
+
+.ground {
+  width: 50px;
+  height: 50px;
+}
+
+.pacman {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: #f2d648;
+  position: relative;
+  z-index: 2;
+}
+
+.pacman__mouth {
+  background: #181819;
+  position: absolute;
+  width: 105%;
+  height: 105%;
+  clip-path: polygon(100% 74%, 44% 48%, 100% 21%);
+  animation-name: eat;
+  animation-duration: 0.7s;
+  animation-iteration-count: infinite;
+}
+
+.pacman__eye {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  top: 20px;
+  right: 40px;
+  background: #333333;
+}
+
+@keyframes eat {
+  0% {
+    clip-path: polygon(100% 74%, 44% 48%, 100% 21%);
+  }
+  25% {
+    clip-path: polygon(100% 60%, 44% 48%, 100% 40%);
+  }
+  50% {
+    clip-path: polygon(100% 50%, 44% 48%, 100% 50%);
+  }
+  75% {
+    clip-path: polygon(100% 59%, 44% 48%, 100% 35%);
+  }
+  100% {
+    clip-path: polygon(100% 74%, 44% 48%, 100% 21%);
+  }
+}
+
+div {
+  margin: -2px;
+  vertical-align: top;
+  display: inline-block;
+}
