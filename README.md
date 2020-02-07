@@ -27,26 +27,27 @@
     <tr>
       <td><a href="https://github.com/yurifyodorov/sandbox/tree/master/best-app">best-app</a></td>
       <td><a href="https://yurifyodorov.github.io/sandbox/best-app/">demo</a></td>
-      <td>верстка, без адаптива</td>
+      <td>верстка лендинга (без адаптива)</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/yurifyodorov/sandbox/tree/master/travel">travel</a></td>
+      <td><a href="https://yurifyodorov.github.io/sandbox/travel/">demo</a></td>
+      <td>верстка 'travel' макета (с адаптивом)</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/yurifyodorov/sandbox/tree/master/bouncer">bouncer</a></td>
+      <td><a href="https://yurifyodorov.github.io/sandbox/bouncer/">demo</a></td>
+      <td>верстка главной страницы интернет-магазина (без адаптива)</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/yurifyodorov/sandbox/tree/master/discussion">discussion</a></td>
+      <td><a href="https://yurifyodorov.github.io/sandbox/discussion/">demo</a></td>
+      <td>верстка чата на flexbox</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/yurifyodorov/sandbox/tree/master/hr-form">hr-form</a></td>
+      <td><a href="https://yurifyodorov.github.io/sandbox/hr-form/">demo</a></td>
+      <td>верстка простейшей HR-формы</td>
     </tr>
   </tbody>
 </table>
-
-<ol>
-  <li>
-    <a href="https://yurifyodorov.github.io/sandbox/travel/">travel</a>
-    <span>(верстка, с адаптивом)</span>
-  </li>
-  <li>
-    <a href="https://yurifyodorov.github.io/sandbox/bouncer/">bouncer</a>
-    <span>(верстка главной страницы интернет-магазина, без адаптива)</span>
-  </li>
-  <li>
-    <a href="https://yurifyodorov.github.io/sandbox/discussion/">discussion</a>
-    <span>(верстка поля для чата)</span>
-  </li>
-  <li>
-    <a href="https://yurifyodorov.github.io/sandbox/hr-form/">hr-form</a>
-    <span>(верстка простейшей HR-формы)</span>
-  </li>
-</ol>
