@@ -15,8 +15,8 @@
       <td>использование MongoDB, Express, React и Node.js</td>
     </tr>
     <tr>
-      <td><a href="#">react-app</a></td>
-      <td><a href="#">demo</a></td>
+      <td><a href="https://github.com/yurifyodorov/react-app/tree/master">react-app</a></td>
+      <td>-</td>
       <td>простейшее React приложение (components, props, state и lifecycle)</td>
     </tr>
     <tr>
