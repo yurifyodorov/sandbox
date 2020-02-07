@@ -3,9 +3,9 @@
 <table>
   <thead>
     <tr>
-      <td>Repo</td>
-      <td>Demo</td>
-      <td>Description</td>
+      <td><b>Repo</b></td>
+      <td><b>Demo</b></td>
+      <td><b>Description</b></td>
     </tr>
   </thead>
   <tbody>
@@ -14,18 +14,15 @@
       <td><a href="https://mern-start-template.herokuapp.com/">mern-start-template.herokuapp.com/</a></td>
       <td>проект с использованием MongoDB, Express, React и Node.js</td>
     </tr>
+    <tr>
+      <td><a href="#">mern</a></td>
+      <td><a href="https://yurifyodorov.github.io/sandbox/connect-to-api/">example</a></td>
+      <td>пример подключения к Studio Ghibli API с помощью JS</td>
+    </tr>
   </tbody>
 </table>
 
 <ol>
-  <li>
-    <a href="https://mern-start-template.herokuapp.com/">mern</a>
-    <span>(проект с использованием MongoDB, Express, React и Node.js)</span>
-  </li>
-  <li>
-    <a href="https://yurifyodorov.github.io/sandbox/connect-to-api/">connect-to-api</a>
-    <span>(пример подключения к Studio Ghibli API с помощью JS)</span>
-  </li>
   <li>
     <a href="https://yurifyodorov.github.io/sandbox/pacman/">pacman</a>
     <span>(игра 'pacman' недоделанная)</span>
