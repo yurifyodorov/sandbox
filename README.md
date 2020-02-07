@@ -15,6 +15,11 @@
       <td>использование MongoDB, Express, React и Node.js</td>
     </tr>
     <tr>
+      <td><a href="#">react-app</a></td>
+      <td><a href="#">demo</a></td>
+      <td>простейшее React приложение (components, props, state и lifecycle)</td>
+    </tr>
+    <tr>
       <td><a href="https://github.com/yurifyodorov/sandbox/tree/master/connect-to-api">connect-to-api</a></td>
       <td><a href="https://yurifyodorov.github.io/sandbox/connect-to-api/">demo</a></td>
       <td>пример подключения к Studio Ghibli API с помощью JS</td>
