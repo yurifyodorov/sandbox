@@ -3,7 +3,7 @@
 <ol>
   <li>
     <a href="https://yurifyodorov.github.io/sandbox/connect-to-api/">connect-to-api</a>
-    <span>Пример подключения к Studio Ghibli API с помощью JS</span>
+    <span>(пример подключения к Studio Ghibli API с помощью JS)</span>
   </li>
   <li>
     <a href="https://yurifyodorov.github.io/sandbox/pacman/">pacman</a>
