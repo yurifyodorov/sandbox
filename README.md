@@ -1,5 +1,22 @@
 # sandbox
 
+<table>
+  <thead>
+    <tr>
+      <td>Repo</td>
+      <td>Demo</td>
+      <td>Description</td>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="https://github.com/yurifyodorov/mern">mern</a></td>
+      <td><a href="https://mern-start-template.herokuapp.com/">example</a></td>
+      <td>проект с использованием MongoDB, Express, React и Node.js</td>
+    </tr>
+  </tbody>
+</table>
+
 <ol>
   <li>
     <a href="https://mern-start-template.herokuapp.com/">mern</a>
