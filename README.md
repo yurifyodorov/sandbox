@@ -3,7 +3,7 @@
 <ol>
   <li>
     <a href="https://mern-start-template.herokuapp.com/">mern</a>
-    <span>(тестовый проект с использованием MongoDB, Express, React и Node.js)</span>
+    <span>(проект с использованием MongoDB, Express, React и Node.js)</span>
   </li>
   <li>
     <a href="https://yurifyodorov.github.io/sandbox/connect-to-api/">connect-to-api</a>
