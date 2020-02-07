@@ -16,7 +16,7 @@
     </tr>
     <tr>
       <td><a href="https://github.com/yurifyodorov/react-app/tree/master">react-app</a></td>
-      <td>-</td>
+      <td><a href="https://yurifyodorov.github.io/react-app/">demo</a></td>
       <td>простейшее React приложение (components, props, state и lifecycle)</td>
     </tr>
     <tr>
