@@ -7,20 +7,26 @@
   </li>
   <li>
     <a href="https://yurifyodorov.github.io/sandbox/pacman/">pacman</a>
+    <span>(игра 'pacman' недоделанная)</span>
   </li>
   <li>
     <a href="https://yurifyodorov.github.io/sandbox/best-app/">best-app</a>
+    <span>(верстка, без адаптива)</span>
   </li>
   <li>
     <a href="https://yurifyodorov.github.io/sandbox/travel/">travel</a>
+    <span>(верстка, с адаптивом)</span>
   </li>
   <li>
     <a href="https://yurifyodorov.github.io/sandbox/bouncer/">bouncer</a>
+    <span>(верстка главной страницы интернет-магазина, без адаптива)</span>
   </li>
   <li>
     <a href="https://yurifyodorov.github.io/sandbox/discussion/">discussion</a>
+    <span>(верстка поля для чата)</span>
   </li>
   <li>
     <a href="https://yurifyodorov.github.io/sandbox/hr-form/">hr-form</a>
+    <span>(верстка простейшей HR-формы)</span>
   </li>
 </ol>
