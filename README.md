@@ -12,7 +12,7 @@
     <tr>
       <td><a href="https://github.com/yurifyodorov/mern">mern</a></td>
       <td><a href="https://mern-start-template.herokuapp.com/">demo</a></td>
-      <td>проект с использованием MongoDB, Express, React и Node.js</td>
+      <td>использование MongoDB, Express, React и Node.js</td>
     </tr>
     <tr>
       <td><a href="https://github.com/yurifyodorov/sandbox/tree/master/connect-to-api">connect-to-api</a></td>
