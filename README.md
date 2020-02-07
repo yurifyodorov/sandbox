@@ -20,7 +20,7 @@
       <td>пример подключения к Studio Ghibli API с помощью JS</td>
     </tr>
      <tr>
-      <td><a href="https://github.com/yurifyodorov/sandbox/tree/master/pacman">connect-to-api</a></td>
+      <td><a href="https://github.com/yurifyodorov/sandbox/tree/master/pacman">pacman</a></td>
       <td><a href="https://yurifyodorov.github.io/sandbox/pacman/">demo</a></td>
       <td>игра 'pacman' (недоделанная)</td>
     </tr>
