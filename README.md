@@ -24,14 +24,15 @@
       <td><a href="https://yurifyodorov.github.io/sandbox/pacman/">demo</a></td>
       <td>игра 'pacman' (недоделанная)</td>
     </tr>
+    <tr>
+      <td><a href="https://github.com/yurifyodorov/sandbox/tree/master/best-app">best-app</a></td>
+      <td><a href="https://yurifyodorov.github.io/sandbox/best-app/">demo</a></td>
+      <td>верстка, без адаптива</td>
+    </tr>
   </tbody>
 </table>
 
 <ol>
-  <li>
-    <a href="https://yurifyodorov.github.io/sandbox/best-app/">best-app</a>
-    <span>(верстка, без адаптива)</span>
-  </li>
   <li>
     <a href="https://yurifyodorov.github.io/sandbox/travel/">travel</a>
     <span>(верстка, с адаптивом)</span>
