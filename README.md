@@ -4,19 +4,19 @@
   <thead>
     <tr>
       <td><b>Repo</b></td>
-      <td><b>Demo</b></td>
+      <td><b>Example</b></td>
       <td><b>Description</b></td>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td><a href="https://github.com/yurifyodorov/mern">mern</a></td>
-      <td><a href="https://mern-start-template.herokuapp.com/">link to demo</a></td>
+      <td><a href="https://mern-start-template.herokuapp.com/">demo</a></td>
       <td>проект с использованием MongoDB, Express, React и Node.js</td>
     </tr>
     <tr>
       <td><a href="#">connect-to-api</a></td>
-      <td><a href="https://yurifyodorov.github.io/sandbox/connect-to-api/">link to demo</a></td>
+      <td><a href="https://yurifyodorov.github.io/sandbox/connect-to-api/">demo</a></td>
       <td>пример подключения к Studio Ghibli API с помощью JS</td>
     </tr>
   </tbody>
