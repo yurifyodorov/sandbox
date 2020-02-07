@@ -11,7 +11,7 @@
   <tbody>
     <tr>
       <td><a href="https://github.com/yurifyodorov/mern">mern</a></td>
-      <td><a href="https://mern-start-template.herokuapp.com/">https://mern-start-template.herokuapp.com/</a></td>
+      <td><a href="https://mern-start-template.herokuapp.com/">mern-start-template.herokuapp.com/</a></td>
       <td>проект с использованием MongoDB, Express, React и Node.js</td>
     </tr>
   </tbody>
