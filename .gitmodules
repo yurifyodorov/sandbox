@@ -1,0 +1,3 @@
+[submodule "sandbox/mern"]
+	path = sandbox/mern
+	url = https://github.com/yurifyodorov/sandbox.git
