@@ -15,18 +15,19 @@
       <td>проект с использованием MongoDB, Express, React и Node.js</td>
     </tr>
     <tr>
-      <td><a href="#">connect-to-api</a></td>
+      <td><a href="https://github.com/yurifyodorov/sandbox/tree/master/connect-to-api">connect-to-api</a></td>
       <td><a href="https://yurifyodorov.github.io/sandbox/connect-to-api/">demo</a></td>
       <td>пример подключения к Studio Ghibli API с помощью JS</td>
+    </tr>
+     <tr>
+      <td><a href="https://github.com/yurifyodorov/sandbox/tree/master/pacman">connect-to-api</a></td>
+      <td><a href="https://yurifyodorov.github.io/sandbox/pacman/">demo</a></td>
+      <td>игра 'pacman' (недоделанная)</td>
     </tr>
   </tbody>
 </table>
 
 <ol>
-  <li>
-    <a href="https://yurifyodorov.github.io/sandbox/pacman/">pacman</a>
-    <span>(игра 'pacman' недоделанная)</span>
-  </li>
   <li>
     <a href="https://yurifyodorov.github.io/sandbox/best-app/">best-app</a>
     <span>(верстка, без адаптива)</span>
