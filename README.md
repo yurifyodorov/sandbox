@@ -22,7 +22,7 @@
     <tr>
       <td><a href="https://github.com/yurifyodorov/sandbox/tree/master/connect-to-api">connect-to-api</a></td>
       <td><a href="https://yurifyodorov.github.io/sandbox/connect-to-api/">demo</a></td>
-      <td>пример подключения к Studio Ghibli API с помощью JS</td>
+      <td>пример подключения к <a href="https://ghibliapi.herokuapp.com/#tag/Films">Studio Ghibli API</a> с помощью JS</td>
     </tr>
      <tr>
       <td><a href="https://github.com/yurifyodorov/sandbox/tree/master/pacman">pacman</a></td>
