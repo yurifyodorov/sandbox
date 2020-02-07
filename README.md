@@ -3,7 +3,7 @@
 <table>
   <thead>
     <tr>
-      <td><b>Repo</b></td>
+      <td><b>Repository</b></td>
       <td><b>Example</b></td>
       <td><b>Description</b></td>
     </tr>
