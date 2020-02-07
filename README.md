@@ -41,7 +41,7 @@
     </tr>
     <tr>
       <td><a href="https://github.com/yurifyodorov/bouncer-react/tree/master">bouncer-react</a></td>
-      <td>без demo</td>
+      <td>нет</td>
       <td>перенос верстки главной страницы интернет-магазина на React</td>
     </tr>
     <tr>
