@@ -22,7 +22,7 @@
      <tr>
       <td><a href="https://github.com/yurifyodorov/sandbox/tree/master/pacman">pacman</a></td>
       <td><a href="https://yurifyodorov.github.io/sandbox/pacman/">demo</a></td>
-      <td>игра 'pacman' (недоделанная)</td>
+      <td>игра "pacman" (недоделанная)</td>
     </tr>
     <tr>
       <td><a href="https://github.com/yurifyodorov/sandbox/tree/master/best-app">best-app</a></td>
@@ -42,7 +42,7 @@
     <tr>
       <td><a href="https://github.com/yurifyodorov/bouncer-react/tree/master">bouncer-react</a></td>
       <td>нет</td>
-      <td>перенос верстки главной страницы интернет-магазина на React</td>
+      <td>перенос верстки "bouncer" на React</td>
     </tr>
     <tr>
       <td><a href="https://github.com/yurifyodorov/sandbox/tree/master/discussion">discussion</a></td>
