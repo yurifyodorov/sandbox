@@ -40,6 +40,11 @@
       <td>верстка главной страницы интернет-магазина (без адаптива)</td>
     </tr>
     <tr>
+      <td><a href="https://github.com/yurifyodorov/bouncer-react/tree/master">bouncer-react</a></td>
+      <td>без demo</td>
+      <td>перенос верстки главной страницы интернет-магазина на React</td>
+    </tr>
+    <tr>
       <td><a href="https://github.com/yurifyodorov/sandbox/tree/master/discussion">discussion</a></td>
       <td><a href="https://yurifyodorov.github.io/sandbox/discussion/">demo</a></td>
       <td>верстка чата на flexbox</td>
