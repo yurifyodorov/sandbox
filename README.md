@@ -9,6 +9,11 @@
     </tr>
   </thead>
   <tbody>
+     <tr>
+      <td><a href="https://github.com/yurifyodorov/home-europe" target="_blank">home-europe</a></td>
+      <td>нет</td>
+      <td>сайт для поиска отелей</td>
+    </tr>
     <tr>
       <td><a href="https://github.com/yurifyodorov/mern" target="_blank">mern</a></td>
       <td><a href="https://mern-start-template.herokuapp.com/" target="_blank">demo</a></td>
