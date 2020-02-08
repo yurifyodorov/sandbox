@@ -10,53 +10,53 @@
   </thead>
   <tbody>
     <tr>
-      <td><a href="https://github.com/yurifyodorov/mern">mern</a></td>
-      <td><a href="https://mern-start-template.herokuapp.com/">demo</a></td>
+      <td><a href="https://github.com/yurifyodorov/mern" target="_blank">mern</a></td>
+      <td><a href="https://mern-start-template.herokuapp.com/" target="_blank">demo</a></td>
       <td>использование MongoDB, Express, React и Node.js</td>
     </tr>
     <tr>
-      <td><a href="https://github.com/yurifyodorov/react-app/tree/master">react-app</a></td>
-      <td><a href="https://yurifyodorov.github.io/react-app/">demo</a></td>
+      <td><a href="https://github.com/yurifyodorov/react-app/tree/master" target="_blank">react-app</a></td>
+      <td><a href="https://yurifyodorov.github.io/react-app/" target="_blank">demo</a></td>
       <td>простейшее React приложение (components, props, state и lifecycle)</td>
     </tr>
     <tr>
-      <td><a href="https://github.com/yurifyodorov/sandbox/tree/master/connect-to-api">connect-to-api</a></td>
-      <td><a href="https://yurifyodorov.github.io/sandbox/connect-to-api/">demo</a></td>
-      <td>пример подключения к <a href="https://ghibliapi.herokuapp.com/#tag/Films">Studio Ghibli API</a> с помощью JS</td>
+      <td><a href="https://github.com/yurifyodorov/sandbox/tree/master/connect-to-api" target="_blank">connect-to-api</a></td>
+      <td><a href="https://yurifyodorov.github.io/sandbox/connect-to-api/" target="_blank">demo</a></td>
+      <td>пример подключения к <a href="https://ghibliapi.herokuapp.com/#tag/Films" target="_blank">Studio Ghibli API</a> с помощью JS</td>
     </tr>
      <tr>
-      <td><a href="https://github.com/yurifyodorov/sandbox/tree/master/pacman">pacman</a></td>
-      <td><a href="https://yurifyodorov.github.io/sandbox/pacman/">demo</a></td>
+      <td><a href="https://github.com/yurifyodorov/sandbox/tree/master/pacman" target="_blank">pacman</a></td>
+      <td><a href="https://yurifyodorov.github.io/sandbox/pacman/" target="_blank">demo</a></td>
       <td>игра "pacman" (недоделанная)</td>
     </tr>
     <tr>
-      <td><a href="https://github.com/yurifyodorov/sandbox/tree/master/best-app">best-app</a></td>
-      <td><a href="https://yurifyodorov.github.io/sandbox/best-app/">demo</a></td>
+      <td><a href="https://github.com/yurifyodorov/sandbox/tree/master/best-app" target="_blank">best-app</a></td>
+      <td><a href="https://yurifyodorov.github.io/sandbox/best-app/" target="_blank">demo</a></td>
       <td>верстка лендинга (без адаптива)</td>
     </tr>
     <tr>
-      <td><a href="https://github.com/yurifyodorov/sandbox/tree/master/travel">travel</a></td>
-      <td><a href="https://yurifyodorov.github.io/sandbox/travel/">demo</a></td>
+      <td><a href="https://github.com/yurifyodorov/sandbox/tree/master/travel" target="_blank">travel</a></td>
+      <td><a href="https://yurifyodorov.github.io/sandbox/travel/" target="_blank">demo</a></td>
       <td>верстка 'travel' макета (с адаптивом)</td>
     </tr>
     <tr>
-      <td><a href="https://github.com/yurifyodorov/sandbox/tree/master/bouncer">bouncer</a></td>
-      <td><a href="https://yurifyodorov.github.io/sandbox/bouncer/">demo</a></td>
+      <td><a href="https://github.com/yurifyodorov/sandbox/tree/master/bouncer" target="_blank">bouncer</a></td>
+      <td><a href="https://yurifyodorov.github.io/sandbox/bouncer/" target="_blank">demo</a></td>
       <td>верстка главной страницы интернет-магазина (без адаптива)</td>
     </tr>
     <tr>
-      <td><a href="https://github.com/yurifyodorov/bouncer-react/tree/master">bouncer-react</a></td>
+      <td><a href="https://github.com/yurifyodorov/bouncer-react/tree/master" target="_blank">bouncer-react</a></td>
       <td>нет</td>
       <td>перенос верстки "bouncer" на React</td>
     </tr>
     <tr>
-      <td><a href="https://github.com/yurifyodorov/sandbox/tree/master/discussion">discussion</a></td>
-      <td><a href="https://yurifyodorov.github.io/sandbox/discussion/">demo</a></td>
+      <td><a href="https://github.com/yurifyodorov/sandbox/tree/master/discussion" target="_blank">discussion</a></td>
+      <td><a href="https://yurifyodorov.github.io/sandbox/discussion/" target="_blank">demo</a></td>
       <td>верстка чата на flexbox</td>
     </tr>
     <tr>
-      <td><a href="https://github.com/yurifyodorov/sandbox/tree/master/hr-form">hr-form</a></td>
-      <td><a href="https://yurifyodorov.github.io/sandbox/hr-form/">demo</a></td>
+      <td><a href="https://github.com/yurifyodorov/sandbox/tree/master/hr-form" target="_blank">hr-form</a></td>
+      <td><a href="https://yurifyodorov.github.io/sandbox/hr-form/" target="_blank">demo</a></td>
       <td>верстка простейшей HR-формы</td>
     </tr>
   </tbody>
