@@ -1,0 +1,240 @@
+body {
+  margin: 0;
+}
+
+/* common */
+.container {
+  display: flex;
+  padding: 40px 20px;
+  border-bottom: 1px solid #000;
+}
+
+.item {
+  background-color: #eee;
+}
+
+/* container #1 (Stretch all, fixed spacing) */
+.container_1 {
+  display: flex;
+
+  .item {
+    flex-grow: 1;
+    height: 100px;
+  }
+
+  .item + .item {
+    margin-left: 2%;
+  }
+}
+
+/* container #2 (Stretch middle, fixed spacing) */
+.container_2 {
+  display: flex;
+
+  .item {
+    height: 100px;
+    width: 100px; /* A fixed width as the default */
+  }
+
+  .item-center {
+    flex-grow: 1; /* Set the middle element to grow and stretch */
+  }
+
+  .item + .item {
+    margin-left: 2%;
+  }
+}
+
+/* container #3 (Alternating grid) */
+.container_3 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  .item {
+    width: 48%;
+    height: 100px;
+    margin-bottom: 2%;
+  }
+
+  .item:nth-child(3n) {
+    width: 100%;
+  }
+}
+
+/* container #4 (3x3 grid) */
+.container_4 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  .item {
+    flex: 0 32%;
+    height: 100px;
+    margin-bottom: 2%; /* (100-32*3)/2 */
+  }
+}
+
+/* container #5 (3x3 grid, constrained proportions (1:1)) */
+.container_5 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  .item {
+    width: 32%;
+    padding-bottom: 32%; /* Same as width, sets height */
+    margin-bottom: 2%; /* (100-32*3)/2 */
+    position: relative;
+  }
+}
+
+/* container #6 (3x3 grid, constrained proportions (16:9)) */
+.container_6 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  .item {
+    width: 32%;
+    padding-bottom: 18%; /* 32:18, i.e. 16:9 */
+    margin-bottom: 2%; /* (100-32*3)/2 */
+  }
+}
+
+/* container #7 (Graph: vertical bars) */
+.container_7 {
+  display: flex;
+  height: 300px;
+  justify-content: space-between;
+  align-items: flex-end;
+
+  .item {
+    width: 14%;
+  }
+  .item-1 {
+    height: 40%;
+  }
+  .item-2 {
+    height: 50%;
+  }
+  .item-3 {
+    height: 60%;
+  }
+  .item-4 {
+    height: 20%;
+  }
+  .item-5 {
+    height: 30%;
+  }
+}
+
+/* container #8 (Graph: horizontal bars) */
+.container_8 {
+  display: flex;
+  height: 300px;
+  justify-content: space-between;
+  flex-direction: column;
+
+  .item {
+    height: 14%;
+  }
+  .item-1 {
+    width: 40%;
+  }
+  .item-2 {
+    width: 50%;
+  }
+  .item-3 {
+    width: 60%;
+  }
+  .item-4 {
+    width: 20%;
+  }
+  .item-5 {
+    width: 30%;
+  }
+}
+
+/* container #9 (Vertical stack (centered)) */
+.container_9 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .item {
+    width: 300px;
+    height: 40px;
+    margin-bottom: 10px;
+  }
+}
+
+/* container #10 (Masonry (or mosaic)) */
+#box-10 {
+  text-align: center;
+  padding-top: 20px;
+
+  .container {
+    display: flex;
+    flex-flow: column wrap;
+    align-content: space-between;
+    /* Your container needs a fixed height, and it 
+     * needs to be taller than your tallest column. */
+    height: 665px;
+
+    /* Optional */
+    background-color: #f7f7f7;
+    border-radius: 3px;
+    padding: 20px;
+    width: 60%;
+    margin: 40px auto;
+    counter-reset: items;
+  }
+
+  .item {
+    width: 32%;
+    /* Optional */
+    position: relative;
+    margin-bottom: 2%;
+    border-radius: 3px;
+    background-color: #a1cbfa;
+    border: 1px solid #4290e2;
+    box-shadow: 0 2px 2px rgba(0, 90, 250, 0.05), 0 4px 4px rgba(0, 90, 250, 0.05), 0 8px 8px rgba(0, 90, 250, 0.05),
+      0 16px 16px rgba(0, 90, 250, 0.05);
+    color: #fff;
+    padding: 15px;
+    box-sizing: border-box;
+  }
+
+  .item::before {
+    counter-increment: items;
+    content: counter(items);
+  }
+
+  /* Re-order items into 3 rows */
+  .item:nth-child(3n + 1) {
+    order: 1;
+  }
+  .item:nth-child(3n + 2) {
+    order: 2;
+  }
+  .item:nth-child(3n) {
+    order: 3;
+  }
+
+  /* Force new columns */
+  .container::before,
+  .container::after {
+    content: "";
+    flex-basis: 100%;
+    width: 0;
+    order: 2;
+  }
+
+  body {
+    font-family: sans-serif;
+  }
+  h3 {
+    text-align: center;
+  }
+}

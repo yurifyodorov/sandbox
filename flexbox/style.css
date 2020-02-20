@@ -1,0 +1,328 @@
+body {
+  margin: 0;
+}
+
+/* common */
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 40px 20px;
+  border-bottom: 1px solid #000;
+}
+
+.item {
+  background-color: #eee;
+}
+
+/* container #1 (Stretch all, fixed spacing) */
+.container_1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container_1 .item {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  height: 100px;
+}
+
+.container_1 .item + .item {
+  margin-left: 2%;
+}
+
+/* container #2 (Stretch middle, fixed spacing) */
+.container_2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container_2 .item {
+  height: 100px;
+  width: 100px;
+  /* A fixed width as the default */
+}
+
+.container_2 .item-center {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  /* Set the middle element to grow and stretch */
+}
+
+.container_2 .item + .item {
+  margin-left: 2%;
+}
+
+/* container #3 (Alternating grid) */
+.container_3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.container_3 .item {
+  width: 48%;
+  height: 100px;
+  margin-bottom: 2%;
+}
+
+.container_3 .item:nth-child(3n) {
+  width: 100%;
+}
+
+/* container #4 (3x3 grid) */
+.container_4 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.container_4 .item {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 32%;
+          flex: 0 32%;
+  height: 100px;
+  margin-bottom: 2%;
+  /* (100-32*3)/2 */
+}
+
+/* container #5 (3x3 grid, constrained proportions (1:1)) */
+.container_5 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.container_5 .item {
+  width: 32%;
+  padding-bottom: 32%;
+  /* Same as width, sets height */
+  margin-bottom: 2%;
+  /* (100-32*3)/2 */
+  position: relative;
+}
+
+/* container #6 (3x3 grid, constrained proportions (16:9)) */
+.container_6 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.container_6 .item {
+  width: 32%;
+  padding-bottom: 18%;
+  /* 32:18, i.e. 16:9 */
+  margin-bottom: 2%;
+  /* (100-32*3)/2 */
+}
+
+/* container #7 (Graph: vertical bars) */
+.container_7 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 300px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.container_7 .item {
+  width: 14%;
+}
+
+.container_7 .item-1 {
+  height: 40%;
+}
+
+.container_7 .item-2 {
+  height: 50%;
+}
+
+.container_7 .item-3 {
+  height: 60%;
+}
+
+.container_7 .item-4 {
+  height: 20%;
+}
+
+.container_7 .item-5 {
+  height: 30%;
+}
+
+/* container #8 (Graph: horizontal bars) */
+.container_8 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 300px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.container_8 .item {
+  height: 14%;
+}
+
+.container_8 .item-1 {
+  width: 40%;
+}
+
+.container_8 .item-2 {
+  width: 50%;
+}
+
+.container_8 .item-3 {
+  width: 60%;
+}
+
+.container_8 .item-4 {
+  width: 20%;
+}
+
+.container_8 .item-5 {
+  width: 30%;
+}
+
+/* container #9 (Vertical stack (centered)) */
+.container_9 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container_9 .item {
+  width: 300px;
+  height: 40px;
+  margin-bottom: 10px;
+}
+
+/* container #10 (Masonry (or mosaic)) */
+#box-10 {
+  text-align: center;
+  padding-top: 20px;
+  /* Re-order items into 3 rows */
+  /* Force new columns */
+}
+
+#box-10 .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+  -ms-flex-line-pack: justify;
+      align-content: space-between;
+  /* Your container needs a fixed height, and it 
+     * needs to be taller than your tallest column. */
+  height: 665px;
+  /* Optional */
+  background-color: #f7f7f7;
+  border-radius: 3px;
+  padding: 20px;
+  width: 60%;
+  margin: 40px auto;
+  counter-reset: items;
+}
+
+#box-10 .item {
+  width: 32%;
+  /* Optional */
+  position: relative;
+  margin-bottom: 2%;
+  border-radius: 3px;
+  background-color: #a1cbfa;
+  border: 1px solid #4290e2;
+  -webkit-box-shadow: 0 2px 2px rgba(0, 90, 250, 0.05), 0 4px 4px rgba(0, 90, 250, 0.05), 0 8px 8px rgba(0, 90, 250, 0.05), 0 16px 16px rgba(0, 90, 250, 0.05);
+          box-shadow: 0 2px 2px rgba(0, 90, 250, 0.05), 0 4px 4px rgba(0, 90, 250, 0.05), 0 8px 8px rgba(0, 90, 250, 0.05), 0 16px 16px rgba(0, 90, 250, 0.05);
+  color: #fff;
+  padding: 15px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+#box-10 .item::before {
+  counter-increment: items;
+  content: counter(items);
+}
+
+#box-10 .item:nth-child(3n + 1) {
+  -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+          order: 1;
+}
+
+#box-10 .item:nth-child(3n + 2) {
+  -webkit-box-ordinal-group: 3;
+      -ms-flex-order: 2;
+          order: 2;
+}
+
+#box-10 .item:nth-child(3n) {
+  -webkit-box-ordinal-group: 4;
+      -ms-flex-order: 3;
+          order: 3;
+}
+
+#box-10 .container::before,
+#box-10 .container::after {
+  content: "";
+  -ms-flex-preferred-size: 100%;
+      flex-basis: 100%;
+  width: 0;
+  -webkit-box-ordinal-group: 3;
+      -ms-flex-order: 2;
+          order: 2;
+}
+
+#box-10 body {
+  font-family: sans-serif;
+}
+
+#box-10 h3 {
+  text-align: center;
+}
+/*# sourceMappingURL=style.css.map */
