@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>site-header</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  </head>
+  <body>
+    <div class="siteHeader">
+      <!-- This section gets pushed to the left side-->
+      <div class="siteHeader__section">
+        <div class="siteHeader__item siteHeaderLogo">
+          <div class="fa fa-inbox"></div>
+        </div>
+        <div
+          class="siteHeader__item siteHeaderButton is-site-header-item-selected"
+        >
+          Inbox
+        </div>
+        <div class="siteHeader__item siteHeaderButton">Sent</div>
+        <div class="siteHeader__item siteHeaderButton">Trash</div>
+      </div>
+      <!-- This section gets pushed to the right side-->
+      <div class="siteHeader__section">
+        <div class="siteHeader__item siteHeaderButton">Settings</div>
+        <div class="siteHeader__item siteHeaderButton">Log out</div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
