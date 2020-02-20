@@ -76,5 +76,11 @@
       <td><a href="https://yurifyodorov.github.io/sandbox/hr-form/" target="_blank">demo</a></td>
       <td>верстка простейшей HR-формы</td>
     </tr>
+    <tr>
+      <td>13</td>
+      <td><a href="https://github.com/yurifyodorov/sandbox/tree/master/flexbox" target="_blank">flexbox</a></td>
+      <td><a href="https://yurifyodorov.github.io/sandbox/flexbox/" target="_blank">demo</a></td>
+      <td>эксперемены с flexbox</td>
+    </tr>
   </tbody>
 </table>
